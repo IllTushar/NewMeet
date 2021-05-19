@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#F1EEEE">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="550dp"
+    android:orientation="vertical"
+    android:background="@drawable/round2"
+    >
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="125dp"
+        android:background="@drawable/i1"/>
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Meeting"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:textColor="#69DD3F"
+        android:textStyle="bold|italic"/>
+    <com.agrawalsuneet.dotsloader.loaders.LazyLoader
+        android:layout_width="40dp"
+        android:id="@+id/lzl"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        app:lazyloader_animDur="800"
+        app:lazyloader_dotsDist="10dp"
+        android:layout_gravity="center"
+        app:lazyloader_dotsRadius="5dp"
+        app:lazyloader_firstDelayDur="150"
+        app:lazyloader_firstDotColor="#69DD3F"
+        app:lazyloader_interpolator="@android:anim/decelerate_interpolator"
+        app:lazyloader_secondDelayDur="300"
+        app:lazyloader_secondDotColor="#69DD3F"
+        app:lazyloader_thirdDotColor="#69DD3F" />
+
+</LinearLayout>
+
+</LinearLayout>

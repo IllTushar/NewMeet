@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Id"
+    android:background="#F1EEEE">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:orientation="vertical"
+        android:background="@drawable/round"    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:background="@drawable/zoom1"/>
+</LinearLayout>
+
+        <EditText
+            android:id="@+id/remail"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Create meeting ID"
+            android:inputType="text"
+            android:textAlignment="textStart"
+            android:drawableRight="@drawable/ic_baseline_email_24"
+            android:backgroundTint="#43E8DFDF"
+            android:background="@drawable/edittext"/>
+
+        <Button
+            android:id="@+id/btnjoin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Join"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18dp"
+            android:background="@drawable/btnround"/>
+
+    </LinearLayout>
+</LinearLayout>
